@@ -23,4 +23,5 @@ with st.form('Question'):
 
 # 제출 버튼을 눌렀을 때
 if submitted:
-    response =
+    response = generate_response(text)
+    st.info(response)
